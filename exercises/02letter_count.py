@@ -17,7 +17,7 @@
 # crash. Remember to use an if statement to see if a key is "in" a dictionary
 # before you try to read it!
 #
-# d2 = {}
+d2 = {}
 # d2["foo"]
 # > KeyError: 'foo'
 #
@@ -26,3 +26,15 @@
 # letter_count('banana')
 #
 # > {'a': 3, 'b': 1, 'n': 2}
+def letter_count(letters):
+    for letter in letters:
+        # print(letter)
+        if letter in d2:
+            d2[letter] += 1
+        else:
+            d2[letter] =1
+        
+    print(d2)
+
+
+letter_count('banana')

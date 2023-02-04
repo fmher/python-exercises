@@ -5,6 +5,11 @@
 # Example function call:
 #
 # p_times('Hello there', 1)
+def p_times(statement, num):
+    for i in range(num):
+        print(statement)
+
+p_times('Hello there', 3)
 #
 # > Hello there
 #

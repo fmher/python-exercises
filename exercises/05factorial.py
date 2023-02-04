@@ -8,4 +8,19 @@
 # factorial(5)
 #
 # > 120
+
+def factorial(num):
+    holder = num
+    # print(holder)
+    for n in range(1, num):
+        # print(n)
+        holder *= n
+        # print(holder)
+    print(holder)
+        
+        
+        
+    
+
+factorial(5)
 #

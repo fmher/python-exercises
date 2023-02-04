@@ -10,3 +10,30 @@
 # multiply_by([1, 2, 3], 5)
 #
 # > [5, 10, 15]
+
+def multiply_by(li, num): return ([current_number * num for current_number in li])        # one liner
+
+    # new_list = []
+    # for i, nums in enumerate(li):
+    #     print(i)
+    #     num *= nums
+    #     new_list.append(num)
+    #     # print(num)
+    # print(new_list)
+
+    # for i, nums in enumerate(li):
+    #     li[i] = li[i] * num
+    # print(li)
+
+    # for i in range(len(li)):
+    #     li[i] *= num
+    # print(li)
+
+    # list comprehension rturns a new list
+    # [return expression for variable in iterable (if expression)]
+
+
+    
+
+multiply_by([1,2,3], 5)
+print(multiply_by([1,2,3], 5))
